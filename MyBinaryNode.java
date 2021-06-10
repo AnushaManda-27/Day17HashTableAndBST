@@ -1,13 +1,12 @@
-package com.btree;
-
 public class MyBinaryNode<K extends Comparable<K>> {
     K key;
-    MyBinaryNode<K> leftchild; 
-    MyBinaryNode<K> rightchild; 
+    MyBinaryNode<K> left;
+    MyBinaryNode<K> right;
 
     public MyBinaryNode(K key) {
         this.key = key;
-        this.leftchild = null;
-        this.rightchild = null;
+        this.left = null;
+        this.right = null;
     }
+
 }
